@@ -1,0 +1,440 @@
+ @font-face{
+ 	src: url('assets/fonts/pathway/PathwayGothicOne-Regular.ttf');
+ 	font-family:'PathwayGothicOne-Regular' ;
+ }
+@font-face{
+ 	src: url('assets/fonts/Raleway/Raleway-Regular.ttf');
+ 	font-family:'Raleway-Regular' ;
+ }
+
+
+ body{
+ 	margin: 0;
+	padding: 0;
+	background: #666565;
+ 	background-image: url('assets/images/bg_body.jpg');
+ 	background-size: cover;
+ 	/* background-repeat: no-repeat; */
+ 	font-family:'PathwayGothicOne-Regular' ;
+ 	font-family:'Raleway-Regular' ;
+
+ }
+
+
+ /****************** header area start *********************/
+ 
+/* Menu part start............. */
+
+ header {
+	position: relative;
+	z-index: 999;
+}
+header .logo {
+	position: absolute;
+	left: 50%;
+	margin-left: -84px;
+	margin-top: -70px;
+}
+ nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+.l_menu{
+	margin-top: 100px;
+	margin-left: 245px;
+}
+.r_menu{
+	margin-left: 720px;
+	margin-top: -50px;
+}
+.l_menu a,.r_menu a{
+	font-size: 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	transition: .7s;
+	font-family:'PathwayGothicOne-Regular' ;
+}
+.l_menu a:hover{
+	color: #263555;
+}
+.r_menu a:hover{
+	color: #263555;
+}
+
+.logo{
+	display:inline-block;
+}
+/* Content part start............ */
+.content_part{
+	width: 95%;
+	height: 1350px;
+	margin: 0 auto;
+	background-color: #F1F1F1;
+	margin-top: 100px;
+}
+.img_part img{
+	width: 85%;
+	margin: 100px ;
+	margin-top: 80px;
+
+}
+.content_text_title{
+	margin-left: 100px;
+	margin-top: -50px;
+	font-family:'PathwayGothicOne-Regular' ;
+	font-size: 40px;
+	opacity: .8;
+	transition: .7s;
+}
+.content_text_title:hover{
+	color: #862323;
+}
+
+.div1 h2,.div2 h2,.div3 h2{
+	margin-left: 210px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-family:'PathwayGothicOne-Regular' ;
+
+}
+.div1 img,.div2 img,.div3 img{
+	width: 285px;
+	height: 360px;
+	border: 2px solid #fff;
+	margin-left: 100px;
+	display: inline-block;
+}
+.items{
+	float: left;
+}
+
+/* Footer area start ......*/
+
+.footer_area{
+	width: 95%;
+	height: 230px;
+	background-color: #30455B;
+	margin-left: 33px;
+	position: relative;
+}
+.footer_test {
+	margin-top: 115px;
+	position: absolute;
+}
+.footer_test a{
+	color: #fff;
+	padding: 10px 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family:'PathwayGothicOne-Regular' ;
+	font-size: 20px
+}
+.socials {
+	text-align: center;
+	margin-bottom: 21px;
+	padding: 20px 20px;
+
+}
+
+.socials a {
+	margin: 0 5px;
+	display: inline-block; 
+	width: 230px;
+	height: 46px;
+	background: url('assets/images/socials.png') 0 0 no-repeat;
+}
+.author{
+	margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'PathwayGothicOne-Regular' ;
+}
+/***************** header area end ************/
+
+
+
+
+/********************** Gellary area start **********************/
+.gallery_title{
+	margin-left: 100px;
+	text-transform: uppercase;
+	margin-top: 70px;
+	 font-family:'PathwayGothicOne-Regular' ;
+	 position: absolute;
+	 word-spacing: 12px;
+	 letter-spacing: 1px;
+
+}
+.gallery_title h1{
+	color: #263555;
+}
+.img1 img{
+	width: 340px;
+	height: 200px;
+	border: 2px solid #fff;
+	margin-left: 35px;
+	display: inline-block;
+	margin-top: 50px;
+	border: 2px solid #424242;
+	box-shadow: 10px 10px;
+}
+.imgs{
+	float: left;
+}
+.gallery_part{
+	margin-top: 200px;
+	position: absolute;
+	margin-left: 70px;
+}
+/************************* Gellary area end ***********************/
+
+
+/******************** Tour area start *******************************/
+
+
+.tour_img,.tour_img2,.tour_img3,.tour_img4{
+	position: absolute;
+	width: 40%;
+	height: 400px;
+	margin-left: 70px;
+	margin-top: 250px;
+}
+.tour_img img,.tour_img2 img,.tour_img3 img,.tour_img4 img{
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+}
+.tour_img2{
+	margin-left: 650px;
+}
+.button {
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.button a{
+	text-decoration: none;
+	border: 2px solid #000;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color:#263555;
+	transition: .5s;
+}
+.button a:hover{
+	color:#fff;
+	background-color: #38AFE5;
+}
+.tour_img3{
+	margin-top: 800px;
+}
+.tour_img4{
+	margin-top: 800px;
+	margin-left: 650px;
+}
+/******************** Tour area end *******************************/
+
+
+
+
+/*********************** Blog page start **************************/
+
+
+.blog_img1,.blog_img2,.agency_img{
+	width: 550px;
+	height: 400px;
+	margin-top: 200px;
+	position: absolute;
+	margin-left: 100px;
+}
+.blog_img1 img,.blog_img2 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.blog1_content{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	float: left;
+	margin-top: 120px;
+	margin-left: 700px;
+
+}
+.blog_img2{
+	margin-top: 750px;
+	margin-left: 690px;
+}
+.blog2_content{
+	width: 550px;
+	height: 500px;
+	position: absolute;
+	margin-top: 700px;
+	margin-right: -350px;
+	margin-left: 100px;
+}
+
+/*********************** Blog page end **************************/
+
+
+
+/*********************** about page start **************************/
+.agency_img{
+	width: 700px;
+	height: 600px;
+}
+.agency_img img{
+	float: left;
+	margin-right: 40px;
+}
+.agency_text{
+	margin-left: 20px;
+	margin-top: -25px;
+}
+.agency_sidebar{
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	margin-top: 200px;
+	margin-left: 900px;
+}
+.principle{
+	margin-top: -25px;
+	font-family:'PathwayGothicOne-Regular' ;
+	color: #263555;
+	text-transform: uppercase;
+}
+.count,.count2,.count3{
+	text-align: center;
+    margin-top: 20px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 50%;
+    float: left;
+    width: 31px;
+    line-height: 30px;
+    height: 31px;
+    color: #fff;
+    border: 1px solid #4f93b2;
+    background-color: #38afe5;
+}
+.count_text{
+	margin-left: 60px;
+	width: 200px;
+	position: absolute
+}
+.count_text2{
+	margin-top: 185px;
+	margin-left: 60px;
+	width: 200px;
+	position: absolute
+}
+.count2{
+	margin-top: 200px;
+	margin-left: -60px
+}
+.count_text3{
+	margin-top: 355px;
+	margin-left: 60px;
+	width: 200px;
+	position: absolute
+}
+.count3{
+	margin-top: 370px;
+	margin-left: -60px
+}
+
+.line{
+	width: 90%;
+}
+.u_line{
+	border-bottom: 1px solid #6D6E6A;
+	padding-top: 850px;
+	margin-left: 100px;
+}
+.offer_area h1{
+	margin-top: 50px;
+	margin-left: 100px;
+	font-family:'PathwayGothicOne-Regular' ;
+	font-size: 40px;
+	color: #263555;
+	text-transform: uppercase
+}
+.offer_text{
+	width: 85%;
+	margin-left: 100px
+}
+/*********************** about page end **************************/
+
+
+
+/*********************** contact page start **************************/
+.google_map{
+	width: 520px;
+	height: 450px;
+	border: 1px solid #6D6E6A;
+	box-shadow: 2px 0 5px 0;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 100px;
+}
+.google_map iframe{
+	width: 100%;
+	height: 100%;
+}
+.contact_form{
+	width: 210px;
+	height: 450px;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 650px;
+}
+.contact_form span{
+	font-size: 20px;
+	font-family:'PathwayGothicOne-Regular' ;
+	color: #000;
+}
+.contact_form span a{
+	text-decoration: none;
+	color: red;
+}
+.contact_table{
+	width: 300px;
+	height: 450px;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 860px;
+}
+.contact_us{
+	margin-top: 78px;
+	margin-left: 857px;
+	position: absolute;
+	font-family:'PathwayGothicOne-Regular' ;
+	text-transform: uppercase;
+	color:#263555; 
+}
+.name,.email,.textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.send{
+	border-radius: 7px;
+	transition: .7s;
+	padding: 7px 20px;
+	background-color: #4CAF50;
+	cursor: pointer;
+}
+.send:hover{
+	background-color: #45a049;
+	color: #fff;
+}
+.contact_us_now{
+	height: 750px;
+}
+/*********************** contact page end **************************/
